@@ -1,0 +1,106 @@
+*{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav-link{
+    color: #fff !important;
+    padding-right: 20px !important;
+}
+
+.navbar{
+    min-height: 10vh !important;
+}
+
+section{
+    min-height: 100vh;
+}
+
+section .inner{
+    padding-top: 10vh !important;
+}
+
+#home h1,
+#about h1,
+#education h1,
+#hobbies h1,
+#skills h1,
+#contact h1{
+    font-size: 42px;
+}
+
+#home{
+    background-color: #77d8d8;
+}
+
+#home h1{
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+#home img{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#education img,
+#hobbies img{
+    width: 100px;
+    height: auto;
+}
+
+#about,
+#hobbies,
+#contact{
+    background-color: rgb(76, 187, 185);
+}
+
+#about p{
+    font-size:28px;
+    line-height:50px;
+}
+
+#skills{
+    background-image: url("https://blog.bannersnack.com/wp-content/uploads/2016/05/Banner-Ad-Design-Examples-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skills .cover{
+    background-color:rgba(0,0,0,0.7);
+    color: #fff;
+    min-height: 100vh;
+}
+
+#skills li,
+#contact p{
+    font-size: 26px;
+}
+
+@media (min-width: 320px) and (max-width: 667px) {
+    #skills li,
+    #contact p{
+        font-size: 18px;
+    }
+
+    #home img{
+        width: 150px;
+        height: auto;
+    }
+
+    #education img,
+    #hobbies img{
+        width: 50px;
+        height: auto;
+    }
+
+    #about p{
+        font-size: 15px;
+        line-height:25px;
+    }
+}
+
